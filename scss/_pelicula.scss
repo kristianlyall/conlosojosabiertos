@@ -1,0 +1,109 @@
+/* seccion de pelicula */
+
+
+// .gridbodypelicula {
+    
+//     /* display: grid;
+//     grid-template-columns: 1fr 1fr 1fr ; 
+//     grid-template-rows: repeat(4, auto);
+//     grid-column-gap: 2px;
+//     grid-row-gap: 2px;
+//     grid-template-areas: 
+    
+//     "mainpelicula mainpelicula sidebar sidebar"
+//     "footer footer footer footer"; */
+    
+// }
+
+
+.mainpelicula{
+    grid-area: mainpelicula;
+    display: flex;
+    margin-top: 70px;
+   
+}
+
+.sectionpelicula {
+
+
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-top: 30px;
+
+
+}
+
+.figuremain figcaption {
+    font-family: roboto;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    font-weight:  20px;
+    line-height: 30px;
+    color: #E80E3A;
+    margin-left: 50px;
+    margin-right: 0px;
+    padding: 10px;
+    
+    
+}
+
+
+
+
+.sectionpeliculaimg{
+
+    padding: 10px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+
+}
+
+.textopelicula{
+
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.textopelicula img {
+
+    
+    width: 500px;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+    
+    /* margin-bottom: 300px; */ 
+}
+
+
+
+
+.textopelicula p{
+    
+   
+    margin-left: 10px;
+    margin-right: 100px;
+    text-align: justify;
+    color: #f9f1f3;
+
+}
+
+.sidebar {
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-top: 30px;
+
+    grid-area: sidebar;
+}
