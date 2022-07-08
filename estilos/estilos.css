@@ -57,21 +57,21 @@ max-width: 100%;
     z-index: 100;
 }
  
-    /* .header li:hover{
+    .header li:hover{
         transform: scale(1.15); 
         color: #f0f2f4;
         
     }
 
 
-    .header li  { color: #FF0000; } /* CSS link color (red) */
-    .header li:hover { color: #00FF00; } /* CSS link hover (green) */
+    .header li  { color: #FF0000; }  CSS link color (red) 
+    .header li:hover { color: #00FF00; }  CSS link hover (green)
 
     .navbar-toggler-icon{
 
      background-color: white;
 
-    } */
+    } 
 
 
  
