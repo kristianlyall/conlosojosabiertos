@@ -1,0 +1,91 @@
+   
+   
+    
+    /* HACETE AMIGO */
+
+
+
+    .haceteamigo{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+   
+
+    img{
+
+
+        padding-top: 80px;
+        width: 400px;
+        margin: 50px;
+
+
+    } }
+
+
+    .amigos {
+
+        display: inline-block;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        padding: 20px;
+        margin: 50px;
+    }
+
+.tituloamigos{
+    
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+    color: #E80E3A;
+    
+}
+    .cajasamigos{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-bottom: 30px;
+
+    }
+
+.cajaamigos1 { 
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #E80E3A; 
+    font-size: 16px; 
+    font-weight: 200px; 
+    text-align: center; 
+    margin:  auto; 
+    margin : 20px;
+    overflow: hidden; 
+    padding: 30px; 
+    border-radius: 20PX;
+    width: 45%;
+    height: 200px;
+    border: 2px solid #0c0b0b;}
+
+ .requisitos{
+
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #0c0b0b; 
+    font-size: 50px; 
+    text-align: center; 
+    overflow: hidden; 
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    } 
+.asociacionamigos{
+color: #E80E3A;
+
+
+}

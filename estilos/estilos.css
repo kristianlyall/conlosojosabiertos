@@ -53,8 +53,7 @@ max-width: 100%;
     background-color: #c83434;
     display: flex;
     justify-content: flex-end;
-    position: fixed;
-    z-index: 100;
+   
 }
  
     .header li:hover{
@@ -64,14 +63,7 @@ max-width: 100%;
     }
 
 
-    .header li  { color: #FF0000; }  CSS link color (red) 
-    .header li:hover { color: #00FF00; }  CSS link hover (green)
-
-    .navbar-toggler-icon{
-
-     background-color: white;
-
-    } 
+  
 
 
  
@@ -201,7 +193,7 @@ max-width: 100%;
 }
 
 
-.contenedor{
+/* .contenedor{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -230,7 +222,7 @@ max-width: 100%;
     color: transparent;
     
     
-}
+} 
 .contenedor figure .capa{
     position: absolute;
     top: 0;
@@ -283,11 +275,11 @@ max-width: 100%;
 
     
 
-}
+} */
 
 
 
-.cajacovid { 
+/* .cajacovid { 
     font-family: helvetica; 
    
     font-size: 40px; 
@@ -308,12 +300,12 @@ max-width: 100%;
        
         color: #c2b4b7;
         
-        }
+        } */
 
   
 
 
-    .contenedor_contacto{ 
+    /* .contenedor_contacto{ 
 
         display: flex;
         justify-content: space-between;
@@ -355,25 +347,25 @@ max-width: 100%;
 
             background-color: #edf1f5;
           }
-          
+           
 
-   .cajaprecios{font-family: helvetica,sans-serif; 
+   /* .cajaprecios{font-family: helvetica,sans-serif; 
     width: 300px;
     display: flex;
-    /* grid-area: main; */
+    /* grid-area: main; 
     justify-content: center;
     text-align: center;
     font-family: helvetica;
     color: #E80E3A; 
     font-size: 40px; 
-    /* font-weight: 400px;  */
+    /* font-weight: 400px;  
     /* margin-right: 2em;
-    margin-left: 2em; */
+    margin-left: 2em; 
     overflow: hidden; 
     padding: 10px; 
     border-radius: 20PX;
     border: 2px solid #fef9f9;
-    /* width: auto; */
+    /* width: auto; 
     margin: 0 auto;
 
 }
@@ -402,7 +394,7 @@ max-width: 100%;
     align-items:center;
     vertical-align: middle;
     
-}
+} */
 
 
 /* seccion de pelicula */
@@ -546,7 +538,6 @@ max-width: 100%;
     padding-bottom: 20px;
 
 }
-
 /* .cajaredes { 
     display: inline-block;
     font-family: helvetica; 
@@ -554,14 +545,12 @@ max-width: 100%;
     color: #131111; 
     overflow: hidden; 
     padding: 10px; 
-    /* border-radius: 20PX; */
     display: flex; 
     align-items: center;
-    /* border: 2px solid #fdfafa; */
     flex-wrap: wrap;
     flex-direction: column;
-   
-} */
+
+} 
 
 
     .cajaredestexto { 
@@ -579,7 +568,7 @@ max-width: 100%;
     .cajaredes__logos img{
         width: 100%;
        
-    }
+    } */
 
 
 /* PAGINA DE CONTACTO  */
@@ -701,12 +690,12 @@ form
 }
 
 .portadacontacto img{ 
-    width: 1500px;
+        width: 400px;
     
         text-align: center;
         
-        margin-bottom: 30px;
-        margin-top:20px;
+        margin-bottom: 90px;
+        
     }
 
 
@@ -729,7 +718,7 @@ form
         "footer footer footer ";} */
 
         .cartelera{
-            width: 100%;
+            
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -822,56 +811,28 @@ form
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
+        text-align: center;
         
     }
 
     .encartelera img{
 
-        width:1500px;
-    
-        text-align: center;
-        
+        width:400px;
+        padding-top: 50px;
         margin-top:20px;
-        margin-bottom:50px;
-        text-decoration: underline;
+        margin-bottom:100px;
+        margin-left: 5px;
+        
         
     }
 
      
-      .poster__encartelera { 
-        
-
-        
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: row;
-        margin: 10px;
-        
-        
-        }
+      
         
    
+   
     
-    .poster__encartelera img
-
-    {
-        margin-bottom: 100px;
-        width: 400px;
-        /* filter:alpha(opacity=70);
-        opacity: 0.7;
-        transition: all 1s;
-        -moz-transition: all 1s;
-        -webkit-transition: all 1s;
-        -o-transition: all 1s;
-        color: transparent;
-        text-align: center; */
-     
-  
-    }
-    
-    /* HACETE AMIGO */
+    /* HACETE AMIGO
 
 
 
@@ -886,6 +847,9 @@ form
 
     .haceteamigo img{
 
+
+        padding-top: 80px;
+        width: 400px;
         margin: 50px;
 
 
@@ -956,9 +920,9 @@ color: #E80E3A;
 
 
 }
-   
+    */
 
-    
+/*     
     .sobrenosotros { 
         
 
@@ -978,11 +942,11 @@ color: #E80E3A;
     .sobrenosotros img
 
     {
-        width: 1400px;
+        width: 400px;
     
         text-align: center;
-        
-        margin-bottom: 30px;
+        padding-top: 100px;
+        margin-bottom: 40px;
         margin-top:20px;
        
          
@@ -995,7 +959,11 @@ color: #E80E3A;
         text-align: center;
         font-size: 50px;
         margin: 20px;
-        padding: 30px;
+        padding: 10px;
+        color: #E80E3A;
+        text-decoration: underline;
+        text-decoration:wavy;
+
     }
     
     .sobrenosotrostexto{
@@ -1004,7 +972,22 @@ color: #E80E3A;
         padding: 30px;
         display: inline-block;
         text-align: center;
+        color: #E80E3A;
+    }  */
+    /* .sobrenosotrostexto img{
+    
+      
+        text-align: center;
+        margin: 30px;
+        
     } 
+
+    .sobrenosotrostexto p {
+    
+      font-size: 18px;
+        text-align: center;
+        
+    }  */
     
 /* TABLET DISEÑO index */
 
@@ -1091,26 +1074,89 @@ color: #E80E3A;
 
 
 
-.poster__encartelera img {
-
-    width: 200px;
-
+.cartelera{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
     
+    
+}
+.cartelera figure{
+   position:relative;
+    cursor: pointer;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.cartelera figure img{
+    width: 300px;
+    transition: all 400ms ease-out;
+    will-change: transform;
+    filter:alpha(opacity=70);
+    opacity: 0.8;
+    transition: all 1s;
+    color: transparent;
+   
+    
+    
+}
+.cartelera figure .capa{
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: rgba(50, 12, 14, 0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+   
+}
+.cartelera figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.cartelera figure:hover > .capa h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cartelera figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.cartelera figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+    margin-bottom:10px;
 }
 
 
 .encartelera img {
 
-    margin-right: px;
-    width:700px;
-    height: 210px;
+    margin-left: 220px;
+    width:330px;
+    
 
 }
 }
 
 
 
-MOBILE index
+/* MOBILE index */
 
 @media screen and ( max-width: 500px ) {
 
@@ -1184,10 +1230,20 @@ MOBILE index
 
    .encartelera img {
 
-    margin-right: px;
-    width:450px;
-    height: 160px;
+    margin-left: 100px;
+    width:250px;
+    
 
+}
+.cartelera{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+    
 }
 /* seccion de pelicula */
 

@@ -1,0 +1,372 @@
+
+/* .bodyindex {
+    background-color: #1E1F1F;
+}
+
+
+
+.portada_inicio{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+  
+
+.portada_inicio img{
+
+max-width: 100%;
+
+   
+
+  
+} */
+
+/* .portada_inicio{
+
+    width: 100%;
+    
+} */
+
+ .menu{
+
+    width: 1000px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    color: #E80E3A;
+    font-size: 20px;
+    font-style: normal;
+    font-family:'Roboto', sans-serif;  
+    text-decoration: none;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}   
+
+.submenu{
+
+    width: 1519px;
+    height: 50px;
+    background-color: #b8abab;
+ 
+
+}
+
+ 
+@font-face {
+
+    font-family: helvetica;
+    
+    src: url(Helveticabold.ttf);
+    
+    }
+
+     
+@font-face {
+
+    font-family: "notoserif";
+    
+    src: url(NotoSerif-Bold.ttf);
+    
+    }
+
+
+
+.main{
+    grid-area: main;
+    width: 1550px;
+
+}
+
+
+       .header li:hover{
+        transform: scale(1.15); 
+        color: #f0f2f4;
+        
+    }  
+
+
+  
+    .cajacovid { 
+        font-family: helvetica; 
+       
+        font-size: 40px; 
+        color: #E80E3A;
+        text-align: center; 
+        align-items: center;
+        width: auto;
+        margin: 30px;
+        padding: 20px; 
+        border-radius: 20PX;
+        display: flex; 
+        justify-content: center;
+        text-decoration: underline;
+        align-items: center;
+        
+    
+        &:hover{ 
+           
+            color: #c2b4b7;
+            
+            }
+    
+      }
+    
+    
+        .contenedor_contacto{ 
+    
+            display: flex;
+            justify-content: space-between;
+            font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+            color: #E80E3A; 
+            font-size: 50px; 
+            font-weight: 400px; 
+            text-align: center; 
+            margin:  50px; 
+            overflow: hidden; 
+            padding: 20px; 
+            border-radius: 20PX;
+            text-align: center;
+            border: 2px solid #fbfbfc;
+            align-items: center;
+           }
+    
+    
+        .caja2 a button
+    
+    
+            {
+                display: inline-block;
+                border-radius: 10px;
+                background-color: #0e0e0e;
+                color: #E80E3A;
+                font-family: helvetica;
+                text-align: center;
+                font-size: 25px;
+                padding: 10px;
+                width: 300px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin-top: 60px;
+                border-color:  #f9fbff;
+                margin-left: 13px;
+              
+                &:hover{
+    
+                background-color: #edf1f5;
+              }
+              }
+    
+       .cajaprecios{font-family: helvetica,sans-serif; 
+        width: 300px;
+        display: flex;
+        /* grid-area: main; */
+        justify-content: center;
+        text-align: center;
+        font-family: helvetica;
+        color: #E80E3A; 
+        font-size: 40px; 
+        font-weight: 400px;  
+        
+        overflow: hidden; 
+        padding: 10px; 
+        border-radius: 20PX;
+        border: 2px solid #fef9f9;
+        width: 300px; 
+       
+    
+    }
+    
+       .textoprecios{
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+       color: #E80E3A; 
+       font-size: 30px; 
+       font-weight: 400; 
+       text-align: center;
+       display: inline-block;
+       margin:  50px; 
+       overflow: hidden; 
+       padding: 20px; 
+    }
+    
+    .pdf { 
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 20px; 
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        display:flex; 
+        align-items:center;
+        vertical-align: middle;
+        
+    }
+    
+    .cajaredestexto { 
+        font-family: helvetica ;
+        color: #080707; 
+        font-size: 50px; 
+        font-weight: 400; 
+        margin-left: 20px; 
+        overflow: hidden; 
+        padding: 10px; 
+    
+       
+        }
+    
+    .cajaredes__logos img{
+        width: 100%;
+       
+    }
+
+ 
+
+
+
+.cineclub { 
+
+    width: 600px;
+    display: flex;
+     grid-area: main; 
+    justify-content: center;
+    text-align: center;
+    font-family: helvetica;
+    color: #E80E3A; 
+    font-size: 40px; 
+     font-weight: 400px;  
+    margin-right: 2em;
+    margin-left: 2em; 
+    overflow: hidden; 
+    padding: 10px; 
+    border-radius: 20PX;
+    border: 2px solid #fef9f9;
+   
+    margin: 0 auto;
+    
+    margin-top: 50px;
+    
+   
+    
+}
+
+
+.poster__main
+{
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: roboto;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    font-weight:  20px;
+    line-height: 30px;
+    color: #E80E3A;
+    margin: 10px;
+    
+    
+    
+    
+}
+
+
+
+.poster__img{
+
+   
+    padding: 30px;
+    width: 360px;
+    transition: 1s;
+    margin-top: 20px;
+    filter:alpha(opacity=70);
+    opacity: 0.7;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    color: transparent;
+    text-align: center;
+    
+}
+
+
+
+
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+img{
+     width: 320px;
+     transition: all 400ms ease-out;
+     will-change: transform;
+     filter:alpha(opacity=70);
+     opacity: 0.8;
+     transition: all 1s;
+     color: transparent;}    
+
+     
+figure{
+    position:relative;
+     cursor: pointer;
+     width: 320px;
+     overflow: hidden;
+     border-radius: 6px;
+     box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     margin-left: 20px;
+
+ 
+ .capa {
+     position: absolute;
+     top: 0;
+     width: 320px;
+     height: 100%;
+     background: rgba(50, 12, 14, 0.7);
+     transition: all 400ms ease-out;
+     opacity: 0;
+     visibility: hidden;
+    text-align: center;
+
+    &:hover {
+        opacity: 1;
+        visibility: visible;} 
+ h3{
+     color: #fff;
+     font-weight: 400;
+     margin-bottom: 120px;
+     transition: all 400ms ease-out;
+      margin-top: 30px;
+
+      &:hover {
+        margin-top: 20px; 
+        margin-bottom: 10px;}
+ 
+ p{
+     color: #fff;
+     font-size: 15px;
+     line-height: 1.5;
+     width: 100%;
+     max-width: 220px;
+     margin: auto;
+     margin-bottom:10px;} }
+
+
+} 
+}
+}
+
+
+
+
+
+
