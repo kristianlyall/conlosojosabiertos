@@ -165,18 +165,18 @@ max-width: 100%;
         display: flex;
         /* grid-area: main; */
         justify-content: center;
+        align-items: center;
         text-align: center;
         font-family: helvetica;
         color: #E80E3A; 
         font-size: 40px; 
         font-weight: 400px;  
-        
         overflow: hidden; 
         padding: 10px; 
         border-radius: 20PX;
         border: 2px solid #fef9f9;
-        width: 300px; 
-       
+        margin: 0 auto;
+        
     
     }
     
