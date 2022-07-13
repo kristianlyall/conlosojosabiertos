@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 
 /* .bodyindex {
     background-color: #1E1F1F;
@@ -365,8 +373,36 @@ figure{
 }
 }
 
+.footer{  
+    display: flex;
+    background-color: #0c0b0b;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    grid-area: footer
+    
 
 
+
+
+ img {
+   text-align: center;}
+
+
+
+p {
+
+    display: inline-block;
+    flex-direction: column;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: #E80E3A; 
+    font-size: 20px; 
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;}
+
+}
 
 
 

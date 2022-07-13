@@ -394,7 +394,7 @@ max-width: 100%;
     align-items:center;
     vertical-align: middle;
     
-} */
+} 
 
 
 /* seccion de pelicula */
@@ -508,15 +508,15 @@ max-width: 100%;
 }
 
 
-.footer{  
+ .footer{  
     display: flex;
     background-color: #0c0b0b;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
     grid-area: footer;
-    /* margin-top: 30px; */
 }
+
 
 
 
@@ -537,7 +537,7 @@ max-width: 100%;
     margin: 20px;
     padding-bottom: 20px;
 
-}
+} */
 /* git */
 
 
@@ -943,8 +943,8 @@ color: #E80E3A;
         display: inline-block;
         text-align: center;
         color: #E80E3A;
-    }  */
-    /* .sobrenosotrostexto img{
+    }  
+     .sobrenosotrostexto img{
     
       
         text-align: center;
@@ -957,7 +957,7 @@ color: #E80E3A;
       font-size: 18px;
         text-align: center;
         
-    }  */
+    }  */ */
     
 /* TABLET DISEÑO index */
 
