@@ -314,14 +314,7 @@ max-width: 100%;
     align-items: center;
     padding: 30px;
     flex-wrap: wrap;
-img{
-     width: 320px;
-     transition: all 400ms ease-out;
-     will-change: transform;
-     filter:alpha(opacity=70);
-     opacity: 0.8;
-     transition: all 1s;
-     color: transparent;}    
+
 
      
 figure{
@@ -333,8 +326,19 @@ figure{
      box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
      margin-left: 20px;
 
+ img{
+     width: 320px;
+     transition: all 400ms ease-out;
+     will-change: transform;
+     filter:alpha(opacity=70);
+     opacity: 0.8;
+     transition: all 1s;
+     color: transparent;}    
+
  
- .capa {
+        
+        
+    .capa{
      position: absolute;
      top: 0;
      width: 320px;
@@ -345,19 +349,22 @@ figure{
      visibility: hidden;
     text-align: center;
 
-    &:hover {
-        opacity: 1;
-        visibility: visible;} 
+     :hover {
+        margin-top: 20px; 
+        margin-bottom: 10px;}
+    
  h3{
      color: #fff;
      font-weight: 400;
      margin-bottom: 120px;
      transition: all 400ms ease-out;
       margin-top: 30px;
+      
+      :hover {
+        opacity: 1;
+        visibility: visible;} 
 
-      &:hover {
-        margin-top: 20px; 
-        margin-bottom: 10px;}
+      
  
  p{
      color: #fff;
@@ -366,9 +373,9 @@ figure{
      width: 100%;
      max-width: 220px;
      margin: auto;
-     margin-bottom:10px;} }
+     margin-bottom:10px;} 
 
-
+}
 } 
 }
 }

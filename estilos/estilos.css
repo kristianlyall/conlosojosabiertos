@@ -68,7 +68,7 @@ max-width: 100%;
 
  
 
-/* .menu{
+ .menu{
 
     width: 1000px;
     align-items: flex-end;
@@ -83,7 +83,7 @@ max-width: 100%;
     flex-wrap: wrap;
     margin-top: 20px;
     
-}   */
+}   
 
 .submenu{
 
@@ -134,14 +134,14 @@ max-width: 100%;
     font-family: helvetica;
     color: #E80E3A; 
     font-size: 40px; 
-    /* font-weight: 400px;  */
-    /* margin-right: 2em;
-    margin-left: 2em; */
+     font-weight: 400px;  
+     margin-right: 2em;
+    margin-left: 2em; 
     overflow: hidden; 
     padding: 10px; 
     border-radius: 20PX;
     border: 2px solid #fef9f9;
-    /* width: auto; */
+     width: auto; 
     margin: 0 auto;
     
     margin-top: 50px;
@@ -279,7 +279,7 @@ max-width: 100%;
 
 
 
-/* .cajacovid { 
+.cajacovid { 
     font-family: helvetica; 
    
     font-size: 40px; 
@@ -300,12 +300,12 @@ max-width: 100%;
        
         color: #c2b4b7;
         
-        } */
+        }
 
   
 
 
-    /* .contenedor_contacto{ 
+    .contenedor_contacto{ 
 
         display: flex;
         justify-content: space-between;
@@ -348,7 +348,7 @@ max-width: 100%;
             background-color: #edf1f5;
           }
            
-/* 
+
    .cajaprecios{font-family: helvetica,sans-serif; 
     width: 300px;
     display: flex;
@@ -368,7 +368,7 @@ max-width: 100%;
      width: auto; 
     margin: 0 auto;
 
-} */
+} 
 
    .textoprecios{
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
