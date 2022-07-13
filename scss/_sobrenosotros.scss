@@ -69,13 +69,13 @@ p {
     }  }  
 
 
-    footer{  
+    .footer{  
         display: flex;
         background-color: #0c0b0b;
         flex-direction: row;
         justify-content: center;
         align-items: center;   
-        
+        grid-area: footer;
         
     
 

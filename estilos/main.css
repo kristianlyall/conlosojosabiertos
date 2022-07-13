@@ -190,15 +190,16 @@ form {
     text-align: center;
     margin: 30px; }
 
-footer {
+.footer {
   display: flex;
   background-color: #0c0b0b;
   flex-direction: row;
   justify-content: center;
-  align-items: center; }
-  footer img {
+  align-items: center;
+  grid-area: footer; }
+  .footer img {
     text-align: center; }
-  footer p {
+  .footer p {
     display: inline-block;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     color: #E80E3A;
