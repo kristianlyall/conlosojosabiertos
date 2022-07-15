@@ -402,7 +402,7 @@ max-width: 100%;
 
 .gridbodypelicula{
     
-    /* display: grid;
+     display: grid;
     grid-template-columns: 1fr 1fr 1fr ; 
     grid-template-rows: repeat(4, auto);
     grid-column-gap: 2px;
@@ -410,7 +410,7 @@ max-width: 100%;
     grid-template-areas: 
     
     "mainpelicula mainpelicula sidebar sidebar"
-    "footer footer footer footer"; */
+    "footer footer footer footer"; 
     
 }
 
@@ -700,7 +700,7 @@ form
         .cartelera figure{
            position:relative;
             cursor: pointer;
-            width: 380px;
+            width: 500px;
             overflow: hidden;
             border-radius: 6px;
             box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
@@ -708,7 +708,7 @@ form
             margin-bottom: 30px;
         }
         .cartelera figure img{
-            width: 380px;
+            width: 500px;
             transition: all 400ms ease-out;
             will-change: transform;
             filter:alpha(opacity=70);
@@ -722,7 +722,7 @@ form
         .cartelera figure .capa{
             position: absolute;
             top: 0;
-            width: 380px;
+            width:500px;
             height: 100%;
             background: rgba(50, 12, 14, 0.7);
             transition: all 400ms ease-out;
@@ -962,84 +962,7 @@ color: #E80E3A;
 /* TABLET DISEÑO index */
 
     @media screen and ( max-width: 768px)
-    {
-
-
-
-        .logo img{
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin-left: 250px;
-
-
-        }
-        .menu {
-
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 30PX;
-        
-
-       }
-
-       .menu a{
-        margin: 5px;
-        font-size: 10px;
-       }
-
-       .logo{
-
-        justify-content:center;
-        align-items: center;
-        text-align: center;
-       }
-       .contenedor_contacto{
-
-        font-size: 40px;
-        flex-direction: column;
-        justify-content: center;
-        font-weight: 30px;
-        align-items: center;
-
-       }
-       .caja2 a button{
-
-        font-size: 25px;
-
-       }
-
-       .cajacovid {
-        font-size: 30px;
-       }
-
-       .cineclub{
-        font-size: 30px;
-       }
-
-.cajaprecios{
-    font-size: 40px;
-    padding: 15px;
-    
-    
-
-    
-}
- 
- .textoprecios{
-    
-   font-size: 25px; 
-   padding: 15x; 
- 
-    margin-right: 50px;
-    margin-bottom: 20px;
-    
-    
-    
-}
-
+   
 
 
 
@@ -1126,11 +1049,11 @@ color: #E80E3A;
 
 
 
-/* MOBILE index */
+MOBILE index
 
 @media screen and ( max-width: 500px ) {
 
-/* .gridbody{
+.gridbody{
     
         display: grid;
         grid-template-columns: 1fr 1fr ; 
@@ -1142,8 +1065,7 @@ color: #E80E3A;
         "main main "
         "footer footer ";
 
-} */
-
+} 
 .logo img{
     
     align-items: center;
@@ -1214,117 +1136,6 @@ color: #E80E3A;
     flex-wrap: wrap;
     
     
-}
-/* seccion de pelicula */
-
-
-.gridbodypelicula{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ; 
-    grid-template-rows: repeat(4, auto);
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-    grid-template-areas: 
-    
-    "mainpelicula mainpelicula sidebar sidebar"
-    "footer footer footer footer";
-    
-}
-
-
-.mainpelicula{
-    grid-area: mainpelicula;
-    display: flex;
-    flex-direction: column;
-   
-}
-
-.sectionpelicula {
-
-
-    display: inline-block;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    /* margin-right: 20px} */}
-
-.figuremain figcaption {
-    font-family: roboto;
-    font-style: normal;
-    text-align: center;
-    font-size: 16px;
-    font-weight:  20px;
-    line-height: 30px;
-    color: #E80E3A;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 10px;
-    
-    
-}
-
-
-
-
-.sectionpeliculaimg{
-
-    padding: 10px; 
-    width: 300px;
-     margin-left: 0px;
-    margin-top: 30px;
-
-
-}
-
-.textopelicula{
-
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    flex-direction: c;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-
-
-.textopelicula img {
-
-    
-    width: 350px;
-    margin-right: 120px; 
-     margin-top: 30px;
-    
-    
-    
-    /* margin-bottom: 300px; */ 
-}
-
-
-
-
-.textopelicula p{
-    
-   
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
-    text-align: justify;
-    font-size: 14px;
-
-
-}
-
-.sidebar {
-    display: flex;
-    margin-bottom: 100px;
-    margin-right: 0px; 
-    flex-direction: row;
-    grid-area: sidebar;
-}
 }
 
 

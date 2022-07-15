@@ -7,14 +7,14 @@
 
 
 	<link rel="stylesheet" href="../estilos/bootstrap.min.css"> 
-    <link rel="stylesheet" href="../estilos/estilos.css">
-    <link rel="stylesheet" href="./estilos/main.css">
+    <!-- <link rel="stylesheet" href="../estilos/estilos.css"> -->
+    <link rel="stylesheet" href="../estilos/main.css">
 
 </head>
 <body style="background-color: #1A1919;">
 	
-	<div class="container-fluid " >
-		<div class=" header row" >
+	<div class="container-fluid"  >
+		<div class=" header row fixed-top"  >
 		  <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #0c0b0b;">
 			  <img width="200px" src="/Multimedia/Mask group (6).png" alt="logo"></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +57,7 @@
 
 
 
-<main >
+<main  >
 
 	<div class="cajacontacto">
 
@@ -69,36 +69,34 @@
 				
 		 
              <div class="uno">
-				<p><input  class="formulario" type="text" placeholder="Nombre"></p>
-			
 
-			
+			<p><input  class="formulario" type="text" placeholder="Nombre"></p>
+		
 			<p><input class="formulario" type="text" placeholder="Email" name="email"></p>
+		
+			<p class="soy">Soy:<br></p>
 			
-
-			<p class="soy" soy>
-
-				Soy:<br></p>
+			<p><input class="soy" id="c1" type="checkbox" name="prensa" value="gusta"> Prensa</p>
 			
-				<p><input class="containers" id="c1" type="checkbox" name="prensa" value="gusta"> Prensa</p>
-			
-				<p><input class="containers" id="c2" type="checkbox" name="espectador" value="gusta"> Espectador</p>
+			<p><input class="soy" id="c2" type="checkbox" name="espectador" value="gusta">Espectador</p>
 			
 			
-				<p><input class="containers" id="c3" type="checkbox" name="socio" value="gusta"> Socio</p></div>
+			<p><input class="check" id="c3" type="checkbox" name="socio" value="gusta"> Socio</p>
+		</div>
 			
-				<div class="dos">
+		<div class="dos">
 
             <textarea  class="textarea" name="Mensaje" placeholder="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
 
 		
 			<button class="enviar">Enviar<a href="/paginas/contacto.html"></a></button></div> 
+
 		</form>
 		
-		
+		</div>
 	</div>
-	</div>
-</div>
+	
+
 
 </main>
 		
@@ -118,6 +116,7 @@
 		
 
 		<img width="500px" src="/Multimedia/Group 296.png">
+		
 		<p>Con los ojos abiertos. Todos los derechos reservados</p>
 		
 
