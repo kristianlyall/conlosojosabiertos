@@ -11,7 +11,7 @@ img {
   width: 400px;
 
   text-align: center;
-
+  padding-top: 100px;
   margin-bottom: 30px;
   margin-top: 20px;
 }}
@@ -25,6 +25,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 
 
 .contacto {
@@ -43,7 +44,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr  ; 
     grid-template-rows: repeat(3, auto);
-    grid-column-gap: 2px;
+    grid-column-gap: px;
     grid-row-gap: 2px;
     grid-template-areas: 
     
@@ -129,6 +130,41 @@ button {
 }
 }
 }
+
+.footer{  
+  display: flex;
+  background-color: #0c0b0b;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+  grid-area: footer;
+  width: 100%;
+  
+
+
+
+
+img {
+ text-align: center;}
+
+
+
+p {
+
+  display: inline-block;
+  flex-direction: column;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  color: #E80E3A; 
+  font-size: 20px; 
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  padding-bottom: 20px;}
+
+}
+
+
+
 
 
 @media screen and ( max-width: 500px ) {

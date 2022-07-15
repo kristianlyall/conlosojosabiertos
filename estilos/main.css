@@ -5,13 +5,15 @@
   .portadacontacto img {
     width: 400px;
     text-align: center;
+    padding-top: 100px;
     margin-bottom: 30px;
     margin-top: 20px; }
 
 .cajacontacto {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 50px; }
   .cajacontacto .contacto {
     display: inline-block;
     align-items: center;
@@ -26,7 +28,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: repeat(3, auto);
-      grid-column-gap: 2px;
+      grid-column-gap: px;
       grid-row-gap: 2px;
       grid-template-areas: "uno uno dos dos " "footer footer footer footer"; }
       .cajacontacto .contacto form .uno .formulario {
@@ -75,6 +77,27 @@
           position: relative;
           border: solid 1px #010101;
           margin-left: 300px; }
+
+.footer {
+  display: flex;
+  background-color: #0c0b0b;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: footer;
+  width: 100%; }
+  .footer img {
+    text-align: center; }
+  .footer p {
+    display: inline-block;
+    flex-direction: column;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: #E80E3A;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px; }
 
 @media screen and (max-width: 500px) {
   .portadacontacto {
@@ -194,14 +217,15 @@
   flex-direction: row;
   flex-wrap: wrap; }
   .haceteamigo img {
-    padding-top: 80px;
     width: 400px;
-    margin: 50px; }
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 40px;
+    margin-top: 20px; }
 
 .amigos {
   display: inline-block;
   text-align: center;
-  margin-top: 150px;
   margin-bottom: 100px;
   padding: 20px;
   margin: 50px; }
@@ -256,8 +280,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  flex-direction: row;
-  margin: 10px; }
+  flex-direction: row; }
   .sobrenosotros img {
     width: 400px;
     text-align: center;
@@ -313,7 +336,7 @@
   flex-wrap: wrap;
   text-align: center; }
   .encartelera img {
-    width: 500px;
+    width: 400px;
     padding-top: 50px;
     margin-top: 20px;
     margin-bottom: 100px;
@@ -352,7 +375,9 @@
       opacity: 0;
       visibility: hidden;
       text-align: center; }
-      .cartelera figure .capa:hover > {
+      .cartelera figure .capa :hover {
+        transform: scale(2.5); }
+      .cartelera figure .capa :hover {
         opacity: 1;
         visibility: visible; }
       .cartelera figure .capa h3 {
@@ -361,17 +386,23 @@
         margin-bottom: 120px;
         transition: all 400ms ease-out;
         margin-top: 30px; }
-        .cartelera figure .capa h3:hover > {
+        .cartelera figure .capa h3 :hover {
           margin-top: 20px;
           margin-bottom: 10px; }
-      .cartelera figure .capa p {
-        color: #fff;
-        font-size: 15px;
-        line-height: 1.5;
-        width: 100%;
-        max-width: 220px;
-        margin: auto;
-        margin-bottom: 10px; }
+        .cartelera figure .capa h3 h3 {
+          color: #fff;
+          font-weight: 400;
+          margin-bottom: 120px;
+          transition: all 400ms ease-out;
+          margin-top: 30px; }
+        .cartelera figure .capa h3 p {
+          color: #fff;
+          font-size: 15px;
+          line-height: 1.5;
+          width: 100%;
+          max-width: 220px;
+          margin: auto;
+          margin-bottom: 10px; }
 
 * {
   margin: 0;
@@ -653,8 +684,9 @@ max-width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-area: footer img;
-    grid-area-text-align: center; }
+  grid-area: footer; }
+  .footer img {
+    text-align: center; }
   .footer p {
     display: inline-block;
     flex-direction: column;
