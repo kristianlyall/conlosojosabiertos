@@ -61,7 +61,7 @@
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     color: #E80E3A; 
-    font-size: 16px; 
+    font-size: 15px; 
     font-weight: 200px; 
     text-align: center; 
     margin:  auto; 
@@ -71,13 +71,15 @@
     border-radius: 20PX;
     width: 45%;
     height: 200px;
-    border: 2px solid #0c0b0b;}
+    border: 2px solid #f8f3f3;}
 
  .requisitos{
 
     display: inline-block;
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    color: #0c0b0b; 
+    color: #fef8f8; 
     font-size: 50px; 
     text-align: center; 
     overflow: hidden; 
@@ -88,6 +90,126 @@
     } 
 .asociacionamigos{
 color: #E80E3A;
+font-size: 20px;
+
+
+}
+
+.footer{  
+    
+    
+
+
+
+
+ img {
+   
+width: 100%;}
+
+
+
+
+
+}
+
+
+@media screen and ( max-width: 500px ){
+
+    .haceteamigo{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+   
+
+    img{
+
+
+        
+        width: 330px;
+        text-align: center;
+        padding-top: 100px;
+        margin-bottom: 40px;
+        margin-top:20px; 
+        margin-right: 2px;
+
+
+    } }
+
+
+    .amigos {
+
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 0;
+        margin: 0;
+       
+       
+    }
+
+.tituloamigos{
+    
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #E80E3A;
+    
+}
+    .cajasamigos{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 5px;
+
+
+    }
+
+.cajaamigos1 { 
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #E80E3A; 
+    font-size: 13px; 
+    text-align: center; 
+    overflow: hidden; 
+    padding: 30px; 
+    border-radius: 20PX;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
+    border: 2px solid #f8f3f3;}
+
+ .requisitos{
+
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #fef8f8; 
+    font-size: 30px; 
+    text-align: center; 
+    overflow: hidden; 
+    width: 200px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+    
+    
+    } 
+.asociacionamigos{
+color: #E80E3A;
+font-family: 'Roboto', sans-serif;
+font-size: 20px; 
+text-align: center;
+
+margin: 10px;
+
+
+
+}
 
 
 }

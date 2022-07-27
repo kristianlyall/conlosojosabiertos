@@ -13,6 +13,7 @@
     
     "sectionpelicula sidebar"
     "footer footer ";
+    margin-top:100s0px;
     
 }
 
@@ -29,7 +30,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin-left: 30px;
-   margin-bottom:270px;
+   margin-top:600px;
+   
    
    
    
@@ -55,6 +57,7 @@
     flex-direction: row;
     grid-area: sidebar;
     justify-content: flex-start;
+    margin-top: 800px;
 
 
 .textopelicula{
@@ -83,7 +86,7 @@
     
 p{
     margin-left: 10px;
-   color: #E80E3A;
+   color: #EB2828;
     text-align: center;
     text-align: justify;
     font-size: 14px;}

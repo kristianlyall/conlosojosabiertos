@@ -515,15 +515,21 @@ max-width: 100%;
     justify-content: center;
     align-items: center;   
     grid-area: footer;
-}
 
 
 
 
-.cajafooter__logo img{
+
+.cajafooter__logo {
    text-align: center;
+   width: 500px;
   
+
+
+img {
+    width: 500px;}} 
 }
+
 
 .cajafooter__texto{
 
@@ -537,7 +543,7 @@ max-width: 100%;
     margin: 20px;
     padding-bottom: 20px;
 
-} */
+}*/
 /* git */
 
 
@@ -961,7 +967,7 @@ color: #E80E3A;
     
 /* TABLET DISEÑO index */
 
-    @media screen and ( max-width: 768px)
+    @media screen and ( max-width: 768px){
    
 
 
@@ -1044,9 +1050,9 @@ color: #E80E3A;
     width:330px;
     
 
-}
-}
+}}
 
+/* 
 
 
 MOBILE index
@@ -1136,10 +1142,95 @@ MOBILE index
     flex-wrap: wrap;
     
     
-}
+} */
 
-
-
-
-
-
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #2e3030;
+    padding: 1rem;
+    z-index: 100;
+   
+    
+  }
+  
+  /* Estilos móvil/celular */
+  @media all and (max-width: 700px) {
+  
+    /* Oculta el nav en la parte izquiera */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgb(40, 38, 38);
+      transform: translateX(-100vw);
+      transition: 0.5s;
+      width: 50%;
+    }
+  
+    /* Muestra el nav */
+    .nav--show {
+      transform: translateX(0);
+    }
+  
+    .nav__button {
+        
+      text-align: right;
+      margin-top: 20px;
+      margin-left: 250px;
+    }
+  
+    .nav__ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 350px;
+      margin-left: 50px;
+     
+    }
+  
+    .nav__link {
+      display: block;
+      padding: 1rem;
+      font-size: 1.5rem;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      margin-bottom: ;
+    }
+  }
+  
+  /* Estilos Escritorio */
+  @media all and (min-width: 701px) {
+  
+    /* Oculta botón de abrir o cerrar */
+    .nav__button,
+    .header__button-nav--open {
+      display: none;
+    }
+  
+    /* Adapta el nav en horizontal */
+    .nav__ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+    }
+  
+    .nav__link {
+      display: block;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      color: black;
+      transition: 0.5s;
+    }
+  
+    .nav__link:hover {
+      opacity: 0.5;
+    }
+  }

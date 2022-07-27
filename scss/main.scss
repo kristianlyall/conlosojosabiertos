@@ -5,3 +5,107 @@
 @import "cartelera";
 @import "index";
 @import "pelicula";
+
+
+
+// // each
+
+// @each <variable> in <expression> { ... }
+
+// @each $color in blue, yellow, black {
+// 	.#{$color}{
+// 	color:#{$color};
+// 	}
+// }
+
+
+// // bucle
+
+// @for $i from 1 through 10 {
+// 	.col-#{$i}{
+// 	width:10% * $i;
+// 	}
+// }
+
+// mapas
+
+
+
+$peliculas: ( 
+        pelicula1: 1500px,
+       pelicula2: 320px,
+      pelicula3: 250px,
+      pelicula4 : 340px
+); 
+/*Creamos el bucle para usar los valores del mapa*/
+@each $key,$width in $peliculas {
+   .img-#{$key} {
+      tamano: $width;
+   }
+}
+
+
+
+// Extend
+
+
+.cajas {
+    display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: helvetica;
+        color: #E80E3A; 
+        font-size: 40px; 
+        font-weight: 400px;  
+        overflow: hidden; 
+        padding: 10px; 
+        border-radius: 20PX;
+        border: 2px solid #fef9f9;
+        margin: 0 auto;
+
+}
+
+.cajas__precios{
+@extend .cajas;
+
+    width: 300px;
+}
+
+.cajas__cineclub{
+    @extend .cajas;
+    width: 200px;
+}
+
+// mixin
+
+.boton{
+
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #0e0e0e;
+    color: #E80E3A;
+    font-family: helvetica;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-color:  #f9fbff;
+   
+}
+
+
+
+
+.titulos{
+
+display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #E80E3A;
+
+}

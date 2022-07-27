@@ -1,4 +1,168 @@
-
+.footer{  
+    display: flex;
+    background-color: #0c0b0b;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+    grid-area: footer;
+    width: 100%;
+    
+  
+  
+  .cajafooter__logo img{
+  
+  
+   text-align: center;
+   width: 300px;
+   margin-top: 20px;
+   }
+  
+  
+  .cajafooter__texto{
+  
+    display: inline-block;
+    flex-wrap: wrap;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+     justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    
+    p 
+    
+    {color: #f9f5f6; 
+    font-size:12px;  }
+   
+    
+    
+    .p2{
+        color: #E80E3A;
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+   
+  
+    }
+  
+    
+    
+    .logosfooter {
+  
+  
+        display: flexbox;
+        display: inline-block;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin-top: 50px;
+        color: #E80E3A;
+       
+   
+  
+   img{
+  
+    width: 30px;
+    margin-left: 10px;
+  
+  }
+  
+  p{
+  
+    
+     justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #E80E3A;
+        font-size: 20px;
+            font-family: helvetica;
+   
+        
+        
+  
+    }}}
+  
+  
+    @media screen and ( max-width: 500px){
+      .footer{  
+        
+        
+        
+        .cajafooter__logo img{
+        
+        
+         text-align: center;
+         width:200px;
+         margin-top: 20px;
+         }
+        
+        
+        .cajafooter__texto{
+        
+          
+           justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          margin-top: 1;
+          padding: 0;
+          
+          p 
+          
+          {color: #f9f5f6; 
+          font-size:15px;  }
+         
+        
+          
+          .p2{
+              color: #E80E3A;
+              margin-left: 20px;
+              margin-right: 20px;
+          }
+         
+        .p3{
+          display: none;
+        }
+          }
+        
+          
+          
+          .logosfooter {
+        
+        
+              display: flexbox;
+              display: inline-block;
+              flex-wrap: wrap;
+              text-align: center;
+              justify-content: center;
+              align-content: center;
+              margin-top: 50px;
+              color: #E80E3A;
+             
+         
+        
+         img{
+        
+          width: 25px;
+          margin-left: 10px;
+        
+        }
+        
+        p{
+        
+          
+          
+          margin-top: 30px;
+          color: #E80E3A;
+          font-size: 20px;
+           margin: 0 ;
+              
+              
+        
+          }}}
+        
+      
+  }
     .sobrenosotros { 
         
 
@@ -54,14 +218,45 @@
     
       
         text-align: center;
-        margin: 30px;} 
+        margin: 30px;
+        width:600px; 
+        height:400px;} } 
         
+        @media screen and ( max-width: 500px){
+            .sobrenosotrostexto {
+    
+                margin: 20px;
+                padding: 30px;
+                display: inline-block;
+                text-align: center;
+                color: #E80E3A;
+        
+         h3{
+        
+                text-align: center;
+                
+                font-size: 50px;
+                margin: 20px;
+                padding: 10px;
+                color: #E80E3A;
+                text-decoration: underline;
+                text-decoration:wavy;}
+        
+            
+             img{
+            
+              
+                text-align: center;
+                margin: 10px;
+                width: 400px; 
+                height: 250px;} 
+        }
     
 p {
     
-      font-size: 18px;
+      font-size: 14px;
         text-align: center; 
-        margin: 30px;
+       
 
    
      
@@ -81,6 +276,7 @@ p {
 
 img {
        text-align: center;
+       width: 100%;
    
 
 }
@@ -98,4 +294,4 @@ img {
         text-align: center;
         }
     
-    }
+    } 

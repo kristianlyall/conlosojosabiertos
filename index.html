@@ -4,75 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seccion principal del clineclub, peliculas del dia, precios,cartelera y redes sociales">
+    <meta name="keywords"  content="HTML,CSS,CINE,CINECLUB,PELICULAS,ARTE,SASS">
     <title>Document</title>
     <link rel="stylesheet" href="./estilos/bootstrap.min.css"> 
    
     <link rel="stylesheet" href="./estilos/main.css">
-	
- 
+    <!-- <link rel="stylesheet" href="./estilos/estilos.css"> -->
+    <!-- <link rel="stylesheet" href="./estilos.css"> -->
+
+   
 </head>
 
 <body style="background-color: #181717;" >
 <!-- class=" col-lg-12 col-md-3 col-xs-2" -->
+
+
 <div class="container-fluid fixed-top" >
   <div class=" header row" >
     <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #0c0b0b;">
-        <img class="logo" width="200px" src="./Multimedia/Mask group (6).png" alt="logo"></a>
-          <button class="navbar-toggler bg-light
-          " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span  class="navbar-toggler-icon"></span>
+        <img width="200px" src="../Multimedia/Mask group (6).png"  alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
           </button>
           
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul   class=" link  navbar-nav me-auto mb-2 mb-lg-0" >
-                <li class="nav-item" >
-                  <a class="nav-link active" aria-current="page" href="../index.html" style="color: #E80E3A ;" >Home</a>
-                </li>
-              
-                <li class="link nav-item" ">
-                  <a href="./paginas/sobrenosotros.html" class="nav-link active" style="color: #E80E3A ;" >Nosotros </a>
-                </li>
-                <li class="nav-item">
-                  <a href="./paginas/contacto.html" class="nav-link active" style="color: #E80E3A ;" >Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./paginas/cartelera.html" class="nav-link active" style="color: #E80E3A ;" >Cartelera</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./paginas/haceteamigo.html" class="nav-link active" style="color: #E80E3A ;"  >Hacete amigo</a>
-                </li>
-             
-              </ul>
-            </div>
+			<ul   class="  navbar-nav me-auto mb-2 mb-lg-0" >
+				<li class="nav-item" >
+				  <a class="nav-link active" aria-current="page" href="./index.html" style="color: #E80E3A ;" >Home</a>
+				</li>
+			  
+				<li class="nav-item" ">
+				  <a href="./paginas/sobrenosotros.html" class="nav-link active" style="color: #E80E3A ;" >Nosotros </a>
+				</li>
+				<li class="nav-item">
+				  <a href="./paginas/contacto.html" class="nav-link active" style="color: #E80E3A ;" >Contacto</a>
+				</li>
+				<li class="nav-item">
+				  <a href="./paginas/cartelera.html" class="nav-link active" style="color: #E80E3A ;" >Cartelera</a>
+				</li>
+				<li class="nav-item">
+				  <a href="./paginas/haceteamigo.html" class="nav-link active" style="color: #E80E3A ;"  >Hacete amigo</a>
+				</li>
+			  </ul>
+			</div>
           </div>
   </div>
         </nav>
-
-        <!-- <div>
-            
-            <div class="submenu">
-
-
-            </div>
-      
-      
-      </div>
-    -->
-<!-- 
-		<div class="portada_inicio" >
-      <div> -->
-
+   
 
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
-            <div  class=" carousel-inner">
+            <div  class=" navegation__portada  carousel-inner">
 
               <div class="  carousel-item active">
                 <a href="./paginas/pelicula.html"><img  width="1500px" src="./Multimedia/Group 299 (1).png" class=" d-block w-100" alt="portada1" ></a>
               </div>
 
               <div class="  carousel-item">
-                <a href="./paginas/pelicula.html"><img src="./Multimedia/Group 300 (1).png" class="img d-block w-100" alt="portada2"></a>
+                <a href="./paginas/pelicula.html"><img img-pelicula3 src="./Multimedia/Group 300 (1).png" class="img d-block w-100" alt="portada2"></a>
               </div>
               
             </div>
@@ -93,7 +83,7 @@
       
         
     
-    <div class="contenedor_contacto" >
+    <div style="margin-top: 100px;" class="contenedor_contacto" >
     
         <div class="caja1">¿Como podemos <br> ayudarte?</div>
     
@@ -115,16 +105,16 @@
     <div class="poster__main">
   
   <div class="contenedor">
-    <a href="#">
+   
          <figure>
-             <img  src="./Multimedia/s,725-dafa04 1.png">
+             <img class="peliculasdehoy" src="./Multimedia/s,725-dafa04 1.png">
              <div class="capa">
                  <h3>Paranoid park</h3>
                  <p>Un patinador adolescente hace lo posible por esconder su responsabilidad en la muerte de un guardia, a quien mató por accidente.</p>
              </div>
          </figure>
-     </a>
-     <a href="#">
+    
+    
       <figure>
           <img  src="./Multimedia/Broker-4 1.png">
           <div class="capa">
@@ -132,8 +122,8 @@
               <p>Un patinador adolescente hace lo posible por esconder su responsabilidad en la muerte de un guardia, a quien mató por accidente.</p>
           </div>
       </figure>
-  </a>
-  <a href="#">
+ 
+  
     <figure>
         <img  src="./Multimedia/jack.png">
         <div class="capa">
@@ -142,7 +132,7 @@
         </div>
     </figure>
 </a>
-<a href="#">
+
   <figure>
       <img  src="./Multimedia/thefog.png">
       <div class="capa">
@@ -182,7 +172,7 @@
     
                  
     
-                <div class="cajaredes__logos"><img  src="./Multimedia/Group 306 (4).png"></div>		
+                <div class="cajaredes__logos"><img  src="./Multimedia/Group 312 (1).png"></div>		
             
                 
             </div>
@@ -190,20 +180,52 @@
     
     </section>
    </main>
-</body>
+
 <footer class="footer" >
 		
-    
+    <div class="cajafooter__logo">
 
-   <img width="500px" src="Multimedia/Group 296.png">
-   <p>Con los ojos abiertos. Todos los derechos reservados</p> 
+<img src="./Multimedia/Mask group (6).png" alt=""></div>
 
+<div class="logosfooter">
+SEGUINOS EN NUESTRAS REDES
+
+
+<hr  style="color: #E80E3A ;">
+
+<img src="./Multimedia/Facebook (1).png" alt="">
+
+
+<img src="./Multimedia/Twitter Squared.png" alt="">
+<img src="./Multimedia/Instagram (2).png" alt=""><hr  style="color: #E80E3A ;">
+
+</div>
+
+<div class="cajafooter__texto">
+  
+  <hr style="color: #E80E3A ;">
+  <p class="p1">Con los ojos abiertos. Todos los derechos resevados</p>
+  <p class="p2" >Cineclub Con los ojos abiertos - Tel: 351 4341609 -
+    Bv. San Juan 49, Córdoba - info@conlosojosabiertos.com.ar</p>
+    <p class="p3" >Desarrollado por: Cristian Lyall</p>
+
+
+
+</div>
 
 
 </footer> 
 
+   <!-- <img  src="Multimedia/Group 311 (4).png"> -->
+
+   
+
+
+
+
+
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/jquery.js"></script>
-
+</body>
 
 </html>
