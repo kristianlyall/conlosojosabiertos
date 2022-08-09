@@ -1,20 +1,16 @@
 /* PAGINA DE CONTACTO  */
 
 
-
 .portadacontacto {
   display: flex;
   justify-content: center;
 
 
       img {
-  width: 400px;
-  height: auto;
-
-  // text-align: center;
-  padding-top: 100px;
-  margin-bottom: 30px;
-  // margin-top:450px;
+        width:400px;
+          
+        margin-top:80px;
+        margin-bottom:70px;
 }}
 
 
@@ -36,7 +32,7 @@
   overflow: hidden;
   padding: 15px;
   border-radius: 20px;
-  width: 1200px;
+  width: 1150px;
   margin: 30px;
   border: 1px solid #e80e3a;
 
@@ -45,40 +41,33 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ; 
     grid-template-rows: repeat(3, auto);
-    grid-column-gap: px;
-    grid-row-gap: 2px;
+    grid-column-gap: 0;
+    grid-row-gap:0;
     grid-template-areas: 
     
-    "uno uno dos dos "
-    "footer footer footer footer "; 
+    "uno uno dos dos " 
+    "footer footer footer"
+    ; }
     
 
     .uno {
-
-     
-     
-    
+      grid-area: uno;
+  
 
     .formulario {
       display: inline-block;
       border-radius: 10px;
       background-color: #f0f2f4;
-      border: none;
       color: #e80e3a;
       text-align: center;
       font-size: 28px;
       padding: 5px;
-      width: 300px;
-      transition: all 0.5s;
-      cursor: pointer;
+      width: 350px;
       margin-right: 100px;
       border: solid 3px #0c0b0b;
     }
 
-    input #c2{
-      background-color: #e80e3a;
-    }
-  
+    
 
 .soy {
   text-align: left;
@@ -104,7 +93,7 @@ textarea {
   border-radius: 10px;
   bottom: 125px;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 500px;
   line-height: 250px;
   font-size: 50px;
   color: #0c0b0b;
@@ -125,7 +114,7 @@ button {
   cursor: pointer;
   position: relative; 
   border: solid 1px #010101;
-  margin-left: 300px;
+  margin-left: 800px;
 }}
 
 
@@ -134,135 +123,23 @@ button {
 
 }
 }
-}
-
-.footer{  
-  display: flex;
-  background-color: #0c0b0b;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;   
-  grid-area: footer;
-  width: 100%;
-  
 
 
 
-
-img {
- text-align: center;
-width: 100%;}
-
-
-
-p {
-
-  display: inline-block;
-  flex-direction: column;
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-  color: #E80E3A; 
-  font-size: 20px; 
-  justify-content: center;
-  text-align: center;
-  margin: 20px;
-  padding-bottom: 20px;}
-
-}
-
-
-
-
-
-
-
-
-  
-  .footer{  
-    display: flex;
-    background-color: #0c0b0b;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;   
-    grid-area: footer;
-   
-    
-  
-  
-  .cajafooter__logo {
-    
-    img{
-  
-  
-   text-align: center;
-   width: 1px;
-   margin-top: 20px;
-   }}
-  
-  
-  .cajafooter__texto{
-  
-    display: inline-block;
-    flex-wrap: wrap;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-     justify-content: space-evenly;
-    align-items: center;
-    margin-top: 5px;
-    
-    p 
-    
-    {color: #f9f5f6; 
-    font-size:12px;  }
-   
-    
-    
-    .p2{
-        color: #807779;
-        margin-left: 20px;
-        margin-right: 160px;
-    }
-   
-  
-    }
   
     
-    
-    .logosfooter {
+
   
-  
-        display: flexbox;
-        display: inline-block;
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        margin-top: 50px;
-        color: #E80E3A;
-       
-   
-  
-   img{
-  
-    width: 100px;
-    margin-left: 10px;
-  
-  }
-  
-  p{
-  
-    
-     justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    color: #E80E3A;
-        font-size: 20px;
-            font-family: helvetica;
-   
-        
-        
-  
-    }}}
-  
+
+    @media screen and ( max-width: 500px ) {
+
+      .logo{
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 23px;
+        margin-bottom: 10px;
+        width: 200px;
+      }
 
   .portadacontacto {
     display: flex;
@@ -290,10 +167,10 @@ p {
     align-items: center;
     color: #0c0b0b;
     overflow: hidden;
-    padding: 15px;
+    padding: 10px;
     border-radius: 20px;
     width: 800px;
-    margin:20px;
+    margin:10px;
     border: 1px solid #e80e3a;
   
     form {
@@ -301,9 +178,9 @@ p {
       display: grid;
       grid-template-columns: 1fr   ; 
       grid-template-rows: repeat(3, auto);
-      grid-column-gap: 2rem;
-      grid-row-gap: 2rem;
-      margin: 1.5rem 0;
+      grid-column-gap: 0;
+      grid-row-gap:0 ;
+      margin:  0;
       grid-template-areas: 
       
       "uno" "dos"
@@ -351,7 +228,7 @@ p {
       text-align: center;
       font-size: 16px;
       padding: 100px;
-      width: 400px;
+      width: 450px;
       height: 100px;
       margin-left: 0px;
       margin-right: 0px;
@@ -375,7 +252,7 @@ p {
     margin-top: 10px;
     font-size: 20px;
     padding: 5px;
-    width: 400px;
+    width: 450px;
     transition: all 0.5s;
     cursor: pointer;
     border: solid 1px #010101;
@@ -392,7 +269,7 @@ p {
 }}}
 
 
-
+}
 
 
 
@@ -402,6 +279,11 @@ p {
 .new-check {
   display: flex;
   align-items: center;
+  color:#e80e3a;
+
+  .soy{
+    color:#e80e3a;
+  }
 
 div {
   width: 30px;
@@ -434,3 +316,109 @@ div {
   border-bottom: 3.5px solid #131314;
   transform: rotate(-45deg);
 }}}}
+
+
+
+
+
+@media screen and ( max-width: 768px ) {
+
+
+
+.portadacontacto {
+
+
+
+      img {
+  width: 350px;
+  height: auto;
+
+  // text-align: center;
+  padding-top: 100px;
+  margin-bottom: 30px;
+  // margin-top:450px;
+}}
+
+
+.cajacontacto {
+ 
+
+
+.contacto {
+ 
+  padding: 15px;
+  border-radius: 20px;
+  width: 800px;
+  
+
+  form {
+
+    display: grid;
+    grid-template-columns: 1fr   ; 
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    margin: 1.5rem 0;
+    grid-template-areas: 
+    
+    "uno" "dos"
+    "footer"; }
+    
+
+    .uno {
+      grid-area: uno;
+  
+
+    .formulario {
+     
+      font-size: 28px;
+      padding: 5px;
+      width: 600px;
+      margin-left: 30px;
+      border: solid 3px #0c0b0b;
+    }
+
+    
+
+.soy {
+  text-align: left;
+  font-size: 30px;
+  color: #e80e3a;
+  margin-left: 10px ;
+
+ 
+}}
+
+
+.dos {
+  grid-area: dos;
+
+textarea {
+  width: 650px;
+  height: 300px;
+ 
+  bottom: 125px;
+  text-align: center;
+  margin-left: 2px;
+  
+  font-size: 50px;
+  
+}
+
+button {
+ 
+  
+  font-size: 35px;
+  padding: 5px;
+  width: 300px;
+  margin-left: 330px;
+}}
+
+
+
+
+
+}
+}
+
+}

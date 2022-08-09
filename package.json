@@ -8,7 +8,6 @@
     "build-css": "node-sass --include-path scss scss/main.scss estilos/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kristianlyall/cineclub.git"
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/kristianlyall/cineclub#readme",
   "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
   }

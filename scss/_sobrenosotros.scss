@@ -1,3 +1,26 @@
+.logo{
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-top: 23px;
+}
+.nav-item{
+  margin-left:30px;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+
+:hover, a:focus {
+  background-size: 100% 2px;
+  color: #FF003C;
+}
+
+
+
 .footer{  
     display: flex;
     background-color: #0c0b0b;
@@ -181,11 +204,10 @@
         img  {
 
   
-        width: 400px;
-        text-align: center;
-        padding-top: 100px;
-        margin-bottom: 40px;
-        margin-top:20px; 
+          width:280px;
+          
+          margin-top:100px;
+          margin-bottom:40px;
       
        
          

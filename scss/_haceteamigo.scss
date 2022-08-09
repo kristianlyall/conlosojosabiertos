@@ -3,7 +3,26 @@
     
     /* HACETE AMIGO */
 
-
+    .logo{
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 23px;
+      }
+      .nav-item{
+        margin-left:30px;
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+      }
+      
+      
+      :hover, a:focus {
+        background-size: 100% 2px;
+        color: #FF003C;
+      }
 
     .haceteamigo{
         display: flex;
@@ -20,9 +39,9 @@
         
         width: 400px;
         text-align: center;
-        padding-top: 100px;
+      
         margin-bottom: 40px;
-        margin-top:20px; 
+        margin-top:150px; 
 
 
     } }
@@ -64,13 +83,13 @@
     font-size: 15px; 
     font-weight: 200px; 
     text-align: center; 
-    margin:  auto; 
+    
     margin : 20px;
     overflow: hidden; 
     padding: 30px; 
     border-radius: 20PX;
     width: 45%;
-    height: 200px;
+    height: 260px;
     border: 2px solid #f8f3f3;}
 
  .requisitos{
@@ -80,12 +99,12 @@
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: #fef8f8; 
-    font-size: 50px; 
+    font-size: 30px; 
     text-align: center; 
     overflow: hidden; 
-    width: 45%;
+  
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
     } 
 .asociacionamigos{
@@ -95,25 +114,63 @@ font-size: 20px;
 
 }
 
-.footer{  
+
+@media screen and ( max-width: 768px ){
+
+
+    .cajasamigos{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row;
+        padding-bottom: 5px;
+        margin-top: 0px;
+
+
+    }
+    .cajaamigos1 { 
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        color: #E80E3A; 
+        font-size: 12px; 
+        text-align: center; 
+        overflow: hidden; 
+        padding: 20px; 
+        flex-direction: row;
+        border-radius: 20PX;
+        margin-left: 5px;
+        margin-right:5px;
+        width: 310px;
+        border: 2px solid #f8f3f3;}
     
+     .requisitos{
     
-
-
-
-
- img {
-   
-width: 100%;}
-
-
-
-
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        color: #fef8f8; 
+        font-size: 30px; 
+        text-align: center; 
+        overflow: hidden; 
+        width: 200px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        
+        
+        
+        } 
 
 }
 
-
 @media screen and ( max-width: 500px ){
+
+    .logo{
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 23px;
+        margin-bottom: 10px;
+        width: 200px;
+      }
 
     .haceteamigo{
         display: flex;
@@ -128,7 +185,7 @@ width: 100%;}
 
 
         
-        width: 330px;
+        width: 280px;
         text-align: center;
         padding-top: 100px;
         margin-bottom: 40px;
@@ -213,3 +270,5 @@ margin: 10px;
 
 
 }
+
+
