@@ -941,6 +941,40 @@
   .cajacovid:hover {
     color: #c2b4b7; }
 
+.contenedor_contacto {
+  display: flex;
+  justify-content: space-between;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  color: #DE222B;
+  font-size: 50px;
+  font-weight: 400px;
+  margin: 50px;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 20PX;
+  text-align: center;
+  border: 2px solid #fbfbfc;
+  align-items: center;
+  margin-top: 100px; }
+
+.caja2 a button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #0e0e0e;
+  color: #DE222B;
+  font-family: helvetica;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 60px;
+  border-color: #f9fbff;
+  margin-left: 13px; }
+  .caja2 a button:hover {
+    background-color: #edf1f5; }
+
 @media screen and (max-width: 768px) {
   .cajacovid {
     font-size: 25px;
@@ -958,7 +992,7 @@
   color: #DE222B;
   font-size: 30px;
   font-weight: 400px;
-  margin: 20px;
+  margin: 50px;
   overflow: hidden;
   padding: 20px;
   border-radius: 20PX;
@@ -1007,14 +1041,14 @@
   .contenedor_contacto {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     font-size: 30px;
     font-weight: 100px;
     text-align: center;
     margin: 30px;
     padding: 10px;
     border-radius: 20PX;
-    flex-direction: row;
-    margin-top: 10px; }
+    margin-top: 100px; }
   .caja2 a button {
     font-size: 18px;
     padding: 10px;
@@ -1023,7 +1057,7 @@
     cursor: pointer;
     margin-top: 30px;
     border-color: #f9fbff;
-    margin-left: 200px; }
+    margin-left: 20px; }
   .cajaprecios {
     width: 300px;
     font-size: 30px;
@@ -1174,29 +1208,9 @@
 .contenedor figure:hover > img {
   transform: scale(1.3); }
 
-.header__logo {
-  margin-left: 50px; }
-
-@media screen and (max-width: 500px) {
-  .contenedor_contacto {
-    justify-content: center;
-    flex-direction: column;
-    font-size: 30px;
-    text-align: center;
-    margin: 30px;
-    padding: 10px;
-    margin-top: 50px; }
-    .contenedor_contacto .caja2 a button {
-      font-size: 25px;
-      padding: 10px;
-      width: 400px;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin-top: 20px;
-      border-color: #f9fbff;
-      margin-left: 13px; }
-      .contenedor_contacto .caja2 a button:hover {
-        background-color: #edf1f5; } }
+@media screen and (max-width: 768px) {
+  .header__logo {
+    margin-left: 50px; } }
 
 /* seccion de pelicula */
 .gridbodypelicula {
