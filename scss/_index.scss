@@ -33,257 +33,7 @@
 
   margin-top: 85px;
 }
-.footer{  
-  display: flex;
-  background-color: #181717;
-  flex-wrap: wrap;
-  grid-area: footer;
-  width: 100%;
-  margin-top: 50px;
-  
-  img{
-    margin-top: 20px;
-  }
 
-
-
-.cajafooter__texto{
-
-  display: inline-block;
-  flex-wrap: wrap;
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-   justify-content: space-evenly;
-  align-items: center;
-  margin-top: 20px;
-  margin-right: 40px;
-  margin-left: 40px;
-  
-  }
-  
-
-
-  
-
-   .redesfooter{
-
-    margin-right: 10px;
-
-
-
- img{
-
-  width: 20px;
-  height: 18px;
-  margin-right:16px;
- 
-  
- 
-}
-
-}
-  
-  .lista__footer {
-    text-decoration: none;
-    display: flex;
-    
-      display: inline;
-      display: flexbox;
-      flex-wrap: wrap;
-      color: #DE222B;
-      margin-top: 20PX;
-      margin-right: 900px;
-      margin-left: 25px;
-   
-   
-
-    a{
-        text-decoration: none;
-       
-     
-      color: #f9f7f7;
-      margin-right: 30px;
-       
-      
-      
-       &:hover{
-        
-        color: #FF003C !important;
-      }
-      }
-    }}
-     
-      
-
-
-
-
-  @media screen and ( max-width: 768px){
-   
-      
-    .footer{  
-     
-      
-      img{
-        margin-top: 20px;
-      }
-
-      .cajafooter__texto{
-
-       
-         justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-       
-        .p1{
-          margin-left: 190px!important;
-        }
-
-        .p3{
-          display: none;
-        }
-        
-        }
-      
-         .redesfooter{
-      
-          margin-right: 10px;
-      
-      
-      
-       img{
-      
-        width: 18px;
-        height: 16px;
-        margin-right:16px;
-       
-        
-       
-      }
-      
-      }
-
-      .lista__footer {
-        text-decoration: none;
-        display: flex;
-        
-          display: inline;
-          display: flexbox;
-          flex-wrap: wrap;
-          color: #DE222B;
-          margin-top: 200PX;
-          margin-right:200px!important;
-          margin-left: 30px ;
-       
-       
-    
-        a{
-            text-decoration: none;
-           
-         font-size: 16px;
-          color: #f9f7f7;
-          margin-right: 15px;
-           
-          
-          
-           &:hover{
-            
-            color: #FF003C !important;
-          }
-          }
-        }
-       }
-           }
-
-
-
-
-           @media screen and ( max-width: 500px){
-
-          
-            .logo{
-              margin-left: 30px;
-              margin-right: 50px;
-              margin-top: 23px;
-              margin-bottom: 10px;
-              width: 200px;
-            }
-      
-            .footer{  
-             
-              
-              img{
-                margin-top: 20px;
-              }
-        
-              .cajafooter__texto{
-        
-               
-                 justify-content: center;
-                align-items: center;
-                margin-top: 20px;
-               
-                .p1{
-                  margin-right: 30px;
-                }
-        
-                .p3{
-                  display: none;
-                }
-                
-                }
-              
-                 .redesfooter{
-              
-                  margin-left:40px;
-              
-              
-              
-               img{
-              
-                width: 16px;
-                height: 14px;
-                margin-right:16px;
-               
-                
-               
-              }
-              
-              }
-        
-              .lista__footer {
-                text-decoration: none;
-                display: flex;
-                
-                  display: inline;
-                  display: flexbox;
-                  flex-wrap: wrap;
-                  color: #DE222B;
-                  margin-top: 20PX;
-                  margin-right:30px;
-                  margin-left: 40px;
-               
-               
-            
-                a{
-                    text-decoration: none;
-                   
-                 font-size: 15px;
-                  color: #f9f7f7;
-                  margin-right: 15px;
-                   
-                  
-                  
-                 
-                  }
-                }
-               }
-                   }
-      
-    
-      
-      
-
- 
 @font-face {
 
     font-family: helvetica;
@@ -293,23 +43,6 @@
     }
 
      
-@font-face {
-
-    font-family: "notoserif";
-    
-    src: url(NotoSerif-Bold.ttf);
-    
-    }
-
-    @font-face {
-
-      font-family: skiebold;
-      
-      src: url(skiebold.otf);
-      
-      }
-  
-    
   
     .cajacovid { 
         font-family: helvetica; 
@@ -341,9 +74,8 @@
         justify-content: space-between;
         font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
         color: #DE222B; 
-        font-size: 50px; 
+        font-size: 60px; 
         font-weight: 400px; 
-        
         margin:  50px; 
         overflow: hidden; 
         padding: 20px; 
@@ -352,7 +84,12 @@
         border: 2px solid #fbfbfc;
         align-items: center;
         margin-top: 100px;
-       }
+
+        h1{
+
+          padding: 30px;
+        }
+       
 
 
     .caja2 a button
@@ -361,11 +98,11 @@
         {
             display: inline-block;
             border-radius: 10px;
-            background-color: #0e0e0e;
+            background-color: #ca2525;
             color: #DE222B;
             font-family: helvetica;
             text-align: center;
-            font-size: 25px;
+            font-size: 250px;
             padding: 10px;
             width: 300px;
             transition: all 0.5s;
@@ -378,7 +115,7 @@
 
             background-color: #edf1f5;
           }
-          }
+          }}
 
 
 
@@ -758,6 +495,251 @@ figure{
    
   
     
+.footer{  
+  display: flex;
+  background-color: #181717;
+  flex-wrap: wrap;
+  grid-area: footer;
+  width: 100%;
+  margin-top: 50px;
+  
+  img{
+    margin-top: 200px;
+  }
+
+
+
+.cajafooter__texto{
+
+  display: inline-block;
+  flex-wrap: wrap;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+   justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  
+  }
+  
+
+
+  
+
+   .redesfooter{
+
+    margin-right: 10px;
+
+
+
+ img{
+
+  width: 20px;
+  height: 18px;
+  margin-right:16px;
+ 
+  
+ 
+}
+
+}
+  
+  .lista__footer {
+    text-decoration: none;
+    display: flex;
+    
+      display: inline;
+      display: flexbox;
+      flex-wrap: wrap;
+      color: #DE222B;
+      margin-top: 20PX;
+      margin-right: 900px;
+      margin-left: 25px;
+   
+   
+
+    a{
+        text-decoration: none;
+       
+     
+      color: #f9f7f7;
+      margin-right: 30px;
+       
+      
+      
+       &:hover{
+        
+        color: #FF003C !important;
+      }
+      }
+    }}
+     
+      
+
+
+
+
+  @media screen and ( max-width: 768px){
+   .logo{
+    width: 600px;
+   }
+      
+    .footer{  
+     
+      
+      img{
+        margin-top: 20px;
+      }
+
+      .cajafooter__texto{
+
+       
+         justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+       
+        .p1{
+          margin-left:100px!important;
+        }
+
+        .p2{
+          font-size: 16px;
+        }
+
+        .p3{
+          display: none;
+        }
+        
+        }
+      
+         .redesfooter{
+      
+          margin-right: 10px;
+      
+      
+      
+       img{
+      
+        width: 18px;
+        height: 16px;
+        margin-right:16px;
+       
+        
+       
+      }
+      
+      }
+
+      .lista__footer {
+        text-decoration: none;
+        display: flex;
+        
+          display: inline;
+          display: flexbox;
+          flex-wrap: wrap;
+          color: #DE222B;
+          margin-top: 200PX;
+          margin-right:200px;
+          margin-left: 30px ;
+       
+       
+    
+        a{
+            text-decoration: none;
+           
+         font-size: 16px;
+          color: #f9f7f7;
+          margin-right: 15px;
+           
+          
+          
+           &:hover{
+            
+            color: #FF003C ;
+          }
+          }
+        }
+       }
+           }
+
+
+
+           @media screen and ( max-width: 500px){
+
+          
+            .footer{  
+             
+              
+              img{
+                margin-top: 20px;
+              }
+        
+              .cajafooter__texto{
+        
+               
+                 justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+               
+                .p1{
+                  margin-right: 30px;
+                }
+        
+                .p3{
+                  display: none;
+                }
+                
+                }
+              
+                 .redesfooter{
+              
+                  margin-left:40px;
+              
+              
+              
+               img{
+              
+                width: 16px;
+                height: 14px;
+                margin-right:16px;
+               
+                
+               
+              }
+              
+              }
+        
+              .lista__footer {
+                text-decoration: none;
+                display: flex;
+                
+                  display: inline;
+                  display: flexbox;
+                  flex-wrap: wrap;
+                  color: #DE222B;
+                  margin-top: 20PX;
+                  margin-right:30px;
+                  margin-left: 40px;
+               
+               
+            
+                a{
+                    text-decoration: none;
+                   
+                 font-size: 15px;
+                  color: #f9f7f7;
+                  margin-right: 15px;
+                   
+                  
+                  
+                 
+                  }
+                }
+               }
+                   }
+      
+    
+      
 
     
 

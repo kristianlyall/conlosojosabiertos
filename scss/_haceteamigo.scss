@@ -3,26 +3,26 @@
     
     /* HACETE AMIGO */
 
-    .logo{
-        margin-left: 30px;
-        margin-right: 50px;
-        margin-top: 23px;
-      }
-      .nav-item{
-        margin-left:30px;
-        text-decoration: none;
-        background-image: linear-gradient(currentColor, currentColor);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size .3s;
-      }
+    // .logo{
+    //     margin-left: 30px;
+    //     margin-right: 50px;
+    //     margin-top: 23px;
+    //   }
+    //   .nav-item{
+    //     margin-left:30px;
+    //     text-decoration: none;
+    //     background-image: linear-gradient(currentColor, currentColor);
+    //     background-position: 0% 100%;
+    //     background-repeat: no-repeat;
+    //     background-size: 0% 2px;
+    //     transition: background-size .3s;
+    //   }
       
       
-      :hover, a:focus {
-        background-size: 100% 2px;
-        color: #FF003C;
-      }
+    //   :hover, a:focus {
+    //     background-size: 100% 2px;
+    //     color: #FF003C;
+    //   }
 
     .haceteamigo{
         display: flex;
@@ -99,10 +99,9 @@
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: #fef8f8; 
-    font-size: 30px; 
+    font-size: 300px; 
     text-align: center; 
     overflow: hidden; 
-  
     padding: 10px;
     margin-bottom: 10px;
     
