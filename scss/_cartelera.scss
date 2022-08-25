@@ -54,6 +54,7 @@
               .estreno{
 
                 margin-left: 25px;
+                width: 80px;
               }
               .peliculaestreno{
 
@@ -189,26 +190,16 @@ margin-top:20px ;
       } }
         
             .contenedor {
-                
-                
-                
-                
-            
-            .estreno{
-
-              margin-left: 25px;
-            }
+           
             .peliculaestreno{
 
-                  margin-top:15px ;
-                  margin-bottom: 40px;
+                
                   width: 330px;
                   }
                   
                   .peliculanoestreno{
                   
-                    margin-top:40px ;
-                    margin-bottom: 40px;
+                   
                     width: 330px;
                     }
                   
@@ -216,12 +207,8 @@ margin-top:20px ;
             
                  
             .peliculaestreno , .peliculanoestreno{
-                position:relative;
-                 cursor: pointer;
+             
                  width: 330px;
-                 overflow: hidden;
-                 border-radius: 6px;
-                 box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
                  margin-left: 20px;
                  margin: 20px;
                  margin-top: 20px;
@@ -229,64 +216,23 @@ margin-top:20px ;
                  
              img{
                  width: 330px;
-                 transition: all 400ms ease-out;
-                 will-change: transform;
-                 filter:alpha(opacity=70);
-                 opacity: 0.8;
-                 transition: all 1s;
-                 color: transparent;  
+                 
                  
             } 
-.poster6{
 
-margin-top:20px ;
-}
-
-.poster7{
-
-margin-top:20px ;
-}
-
-.poster6{
-
-  margin-top:20px ;
-  }
             
                 
                     
                     
                 .capa{
-                 position: absolute;
-                 top: 0;
+                
                  width: 330px;
-                 height: 100%;
-                 background: rgba(50, 12, 14, 0.7);
-                 transition: all 400ms ease-out;
-                 opacity: 0;
-                
-                text-align: center;
-                margin: auto;
-                
 
-                
-                
-               
-            
-                
-             h3{
-                 color: #fff;
-                 font-weight: 400;
-                 margin-bottom: 120px;
-                 transition: all 400ms ease-out;
-                  margin-top: 30px;
-                  }
-                  
-                
-              
+           
              
              p{
                  color: #fff;
-                 font-size: 15px;
+                 font-size: 13px;
                  line-height: 1.5;
                  text-align: center;
                  
@@ -297,19 +243,7 @@ margin-top:20px ;
             
             } 
             } 
-            } 
-            
-            
-               
-            .contenedor figure:hover > .capa {
-              opacity: 1;
-              visibility: visible;
             }
-            .contenedor figure:hover > .capa h3{
-              margin-top: 20px;
-              margin-bottom: 10px;
-            }
-          
               }
               
         

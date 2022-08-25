@@ -142,11 +142,7 @@ button {
       }
 
   .portadacontacto {
-    display: flex;
-    justify-content: center;
-    
-  
-  
+   
   img {
     width: 200px;
   
@@ -156,31 +152,24 @@ button {
   }}
 
   .cajacontacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
+    
     flex-direction: row;
     flex-wrap: wrap;
     
   .contacto {
-    display: inline-block;
-    align-items: center;
-    color: #0c0b0b;
-    overflow: hidden;
+    
     padding: 10px;
-    border-radius: 20px;
     width: 800px;
     margin:10px;
-    border: 1px solid #e80e3a;
+    
   
     form {
 
-      display: grid;
+     
       grid-template-columns: 1fr   ; 
       grid-template-rows: repeat(3, auto);
-      grid-column-gap: 0;
-      grid-row-gap:0 ;
-      margin:  0;
+     
       grid-template-areas: 
       
       "uno" "dos"
@@ -189,24 +178,19 @@ button {
 
   .uno {
 
-     grid-area: uno; 
+    
      
     
 
     .formulario {
-      display: inline-block;
-      border-radius: 10px;
-      background-color: #f0f2f4;
+    
       border: none;
-      color: #e80e3a;
-      text-align: center;
       font-size: 20px;
-      padding: 5px;
       width: 400px;
       transition: all 0.5s;
       cursor: pointer;
       margin-right: 10px;
-      border: solid 3px #f7f4f4;
+     
     }
 
   .soy{
@@ -216,7 +200,7 @@ button {
 
 
   .dos {
-    grid-area: dos;
+   
   
   
   textarea {
@@ -243,15 +227,9 @@ button {
   }
   
   button {
-    display: inline-block;
-    border-radius: 10px;
-    background-color: #e80e3a;
-    border: none;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 10px;
+   
+    
     font-size: 20px;
-    padding: 5px;
     width: 450px;
     transition: all 0.5s;
     cursor: pointer;
@@ -329,7 +307,7 @@ div {
 
 
 
-      img {
+  img {
   width: 350px;
   height: auto;
 
@@ -366,24 +344,21 @@ div {
     
 
     .uno {
-      grid-area: uno;
+      
   
 
     .formulario {
      
-      font-size: 28px;
-      padding: 5px;
+      
       width: 600px;
       margin-left: 30px;
-      border: solid 3px #0c0b0b;
+      
     }
 
     
 
 .soy {
-  text-align: left;
-  font-size: 30px;
-  color: #e80e3a;
+  
   margin-left: 10px ;
 
  
@@ -391,18 +366,11 @@ div {
 
 
 .dos {
-  grid-area: dos;
+ 
 
 textarea {
   width: 650px;
-  height: 300px;
- 
-  bottom: 125px;
-  text-align: center;
-  margin-left: 2px;
-  
-  font-size: 50px;
-  
+  margin-left: 2px; 
 }
 
 button {
@@ -422,3 +390,18 @@ button {
 }
 
 }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+

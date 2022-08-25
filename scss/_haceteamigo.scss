@@ -3,26 +3,8 @@
     
     /* HACETE AMIGO */
 
-    // .logo{
-    //     margin-left: 30px;
-    //     margin-right: 50px;
-    //     margin-top: 23px;
-    //   }
-    //   .nav-item{
-    //     margin-left:30px;
-    //     text-decoration: none;
-    //     background-image: linear-gradient(currentColor, currentColor);
-    //     background-position: 0% 100%;
-    //     background-repeat: no-repeat;
-    //     background-size: 0% 2px;
-    //     transition: background-size .3s;
-    //   }
-      
-      
-    //   :hover, a:focus {
-    //     background-size: 100% 2px;
-    //     color: #FF003C;
-    //   }
+
+ 
 
     .haceteamigo{
         display: flex;
@@ -99,7 +81,7 @@
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: #fef8f8; 
-    font-size: 300px; 
+    font-size: 30px; 
     text-align: center; 
     overflow: hidden; 
     padding: 10px;
@@ -119,37 +101,27 @@ font-size: 20px;
 
     .cajasamigos{
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction:row;
+      
         padding-bottom: 5px;
         margin-top: 0px;
 
 
     }
     .cajaamigos1 { 
-        display: inline-block;
-        font-family: 'Roboto', sans-serif;
-        color: #E80E3A; 
-        font-size: 12px; 
-        text-align: center; 
-        overflow: hidden; 
+       
+        font-size: 12px;
         padding: 20px; 
         flex-direction: row;
-        border-radius: 20PX;
         margin-left: 5px;
         margin-right:5px;
         width: 310px;
-        border: 2px solid #f8f3f3;}
+       }
     
      .requisitos{
     
         display: inline-block;
-        font-family: 'Roboto', sans-serif;
-        color: #fef8f8; 
+        
         font-size: 30px; 
-        text-align: center; 
         overflow: hidden; 
         width: 200px;
         margin-bottom: 0px;
@@ -172,11 +144,7 @@ font-size: 20px;
       }
 
     .haceteamigo{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
+        
         
    
 
@@ -185,7 +153,6 @@ font-size: 20px;
 
         
         width: 280px;
-        text-align: center;
         padding-top: 100px;
         margin-bottom: 40px;
         margin-top:20px; 
@@ -197,8 +164,7 @@ font-size: 20px;
 
     .amigos {
 
-        display: inline-block;
-        text-align: center;
+       
         margin-bottom: 0;
         margin: 0;
        
@@ -207,19 +173,14 @@ font-size: 20px;
 
 .tituloamigos{
     
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+   
     font-size: 25px;
     margin-bottom: 10px;
-    color: #E80E3A;
+    
     
 }
     .cajasamigos{
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
         padding-bottom: 5px;
 
@@ -227,27 +188,17 @@ font-size: 20px;
     }
 
 .cajaamigos1 { 
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    color: #E80E3A; 
+   
     font-size: 13px; 
-    text-align: center; 
-    overflow: hidden; 
-    padding: 30px; 
-    border-radius: 20PX;
     margin-left: 10px;
     margin-right: 10px;
     width: 400px;
-    border: 2px solid #f8f3f3;}
+    }
 
  .requisitos{
 
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    color: #fef8f8; 
+    
     font-size: 30px; 
-    text-align: center; 
-    overflow: hidden; 
     width: 200px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -256,11 +207,8 @@ font-size: 20px;
     
     } 
 .asociacionamigos{
-color: #E80E3A;
-font-family: 'Roboto', sans-serif;
-font-size: 20px; 
-text-align: center;
 
+text-align: center;
 margin: 10px;
 
 

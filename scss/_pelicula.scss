@@ -103,39 +103,9 @@ p{
 }
 
 
-footer{  
-    display: flex;
-    background-color: #0c0b0b;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;   
-    grid-area: footer;
-    margin: 0;
-    
+
   
-  
-  
-  
-  img {
-   text-align: center;
-  width: 350px;
-  margin: 0;}
-  
-  
-  
-  p {
-  
-    display: inline-block;
-    flex-direction: column;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    color: #E80E3A; 
-    font-size: 20px; 
-    justify-content: center;
-    text-align: center;
-    margin: 0;
-    padding-bottom: 20px;}
-  
-  }
+ 
   
   
 
@@ -163,11 +133,9 @@ footer{
     
     
     
-    display: grid;
+    
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1, auto);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
     grid-template-areas: 
     
     "sectionpelicula"
@@ -192,18 +160,10 @@ footer{
 
 
 
-    img{
-
-        
-        width:400px;
-        }
     
         .p{
          margin-right: 10px;
-           color: #EB2828;
-            
             text-align: center;
-            font-size: 14px;
             margin-bottom: 10px;}}
 
 
@@ -215,9 +175,7 @@ footer{
     margin-bottom: 10px;
     margin-right: 10px; 
     flex-direction: column;
- 
-    margin-top: 20px;
-    grid-area: sidebar;
+
 
 
 .textopelicula{
@@ -241,12 +199,7 @@ footer{
   
     }
     
-p{
-    
-   
-    text-align: center;
-    text-align: justify;
-    font-size: 15px;}
+
 
 
 }
@@ -260,79 +213,6 @@ p{
     width: 200px;
   }
 
-  .footer{  
-    
-   
-    
-    img{
-      margin-top: 20px;
-    }
-
-    .cajafooter__texto{
-
-     
-       justify-content: center;
-      align-items: center;
-      margin-top: 20px;
-     
-      .p1{
-        margin-left: 20px;
-      }
-
-      .p3{
-        display: none;
-      }
-      
-      }
-    
-       .redesfooter{
-    
-        margin-left:40px;
-    
-    
-    
-     img{
-    
-      width: 16px;
-      height: 14px;
-      margin-right:16px;
-     
-      
-     
-    }
-    
-    }
-
-    .lista__footer {
-      text-decoration: none;
-      display: flex;
-      
-        display: inline;
-        display: flexbox;
-        flex-wrap: wrap;
-        color: #DE222B;
-        margin-top: 20PX;
-        margin-right:30px;
-        margin-left: 40px;
-     
-     
-  
-      a{
-          text-decoration: none;
-         
-       font-size: 15px;
-        color: #f9f7f7;
-        margin-right: 15px;
-         
-        
-        
-       
-        }
-      }
-     }
-  
-  
-
 
 }
 
@@ -342,37 +222,13 @@ p{
 @media screen and ( max-width:500px )
 {
 
-    
-    .gridbodypelicula{
-    
-    
-    
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(1, auto);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        grid-template-areas: 
-        
-        "sectionpelicula"
-        "sidebar"
-        "footer";
-       
-     
-        
-    }
+
     
     
     
     .sectionpelicula {
     
-       
-        flex-direction:column;
-        justify-content: center;
-        margin-left: 0px;
-        margin-bottom: 10px;
-        margin-top: 120px;
-        margin-right: 0px;
+      
     
     
     
@@ -383,12 +239,9 @@ p{
             }
         
             .p{
-             margin-right: 10px;
-               color: #EB2828;
-                
-                text-align: center;
+           
                 font-size: 14px;
-                margin-bottom: 10px;}}
+               }}
     
     
     
@@ -396,22 +249,15 @@ p{
     
     .sidebar {
       
-        margin-bottom: 10px;
-        margin-right: 10px; 
-        flex-direction: column;
+      
      
         margin-top: 20px;
-        grid-area: sidebar;
+       
     
     
     .textopelicula{
     
-        
-        flex-direction: column;
-    
-        margin-top: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
+       
         
     
     
@@ -435,88 +281,5 @@ p{
     
     }
     }
-    
-    .logo{
-        margin-left: 30px;
-        margin-right: 50px;
-        margin-top: 23px;
-        margin-bottom: 10px;
-        width: 200px;
-      }
-    
-      .footer{  
-        
-       
-        
-        img{
-          margin-top: 20px;
-        }
-    
-        .cajafooter__texto{
-    
-         
-           justify-content: center;
-          align-items: center;
-          margin-top: 20px;
-         
-          .p1{
-            margin-left: 20px;
-          }
-    
-          .p3{
-            display: none;
-          }
-          
-          }
-        
-           .redesfooter{
-        
-            margin-left:40px;
-        
-        
-        
-         img{
-        
-          width: 16px;
-          height: 14px;
-          margin-right:16px;
-         
-          
-         
-        }
-        
-        }
-    
-        .lista__footer {
-          text-decoration: none;
-          display: flex;
-          
-            display: inline;
-            display: flexbox;
-            flex-wrap: wrap;
-            color: #DE222B;
-            margin-top: 20PX;
-            margin-right:30px;
-            margin-left: 40px;
-         
-         
-      
-          a{
-              text-decoration: none;
-             
-           font-size: 15px;
-            color: #f9f7f7;
-            margin-right: 15px;
-             
-            
-            
-           
-            }
-          }
-         }
-      
-      
-    
-    
-    }
 
+    }
